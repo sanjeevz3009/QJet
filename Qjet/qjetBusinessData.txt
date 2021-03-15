@@ -1,0 +1,30 @@
+Qjet business data: 
+====================
+
+MemberID: 0270, Booked flights:9, Cancelled flights: 0
+
+MemberID: 1897, Booked flights:16, Cancelled flights: 4
+
+MemberID: 2465, Booked flights:17, Cancelled flights: 3
+
+MemberID: 4854, Booked flights:6, Cancelled flights: 1
+
+MemberID: 5443, Booked flights:13, Cancelled flights: 4
+
+MemberID: 5546, Booked flights:12, Cancelled flights: 2
+
+MemberID: 5875, Booked flights:10, Cancelled flights: 5
+
+MemberID: 6430, Booked flights:16, Cancelled flights: 7
+
+MemberID: 6966, Booked flights:4, Cancelled flights: 0
+
+MemberID: 7228, Booked flights:8, Cancelled flights: 1
+
+MemberID: 8659, Booked flights:18, Cancelled flights: 6
+
+MemberID: 9560, Booked flights:4, Cancelled flights: 1
+
+Summary:
+=========
+Total members: 12, Total booked flights: 133, Total cancelled flights: 34
