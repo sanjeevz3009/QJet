@@ -459,7 +459,7 @@ class showRegisterWindow(QtWidgets.QWidget):
             hashPasswordHex = hashPassword.hex()
             print("Hashed password(hex):", hashPasswordHex)
 
-            database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+            database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
             connection = CreateConnection(database)
  
             #"with connection" closes the database connection automatically, once the SQL operations are completed.

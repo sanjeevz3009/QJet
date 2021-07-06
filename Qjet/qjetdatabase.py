@@ -32,7 +32,7 @@ def CreateTable(connection, CreateTableSql):
 
 def Creating():
     #Database location specified.
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     
     #Creates the member table.
     CreateMemberTable = """
@@ -188,7 +188,7 @@ def updateAdmin(connection, AdminUpdate):
     connection.commit()
 
 def insertDefaultMembers():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
 
     #2-Dimensional array.
@@ -253,7 +253,7 @@ def insertDefaultMembers():
             InsertMember(connection, member)
 
 def insertDefaultStaffs():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
 
     #2-Dimensional array.
@@ -290,7 +290,7 @@ def insertDefaultStaffs():
             InsertStaff(connection, staff)
 
 def insertDefaultAdmins():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
 
     #Admin1234@
@@ -306,7 +306,7 @@ def insertDefaultAdmins():
 
 
 def insertDefaultFlights():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
 
     #2-Dimensional array.
@@ -339,7 +339,7 @@ def insertDefaultFlights():
             InsertFlights(connection, flights[flight])
 
 def insertDefualtFlightData():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
 
     #2-Dimensional array.
@@ -370,7 +370,7 @@ def insertDefualtFlightData():
 
 
 def testSQL():
-    database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+    database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
     connection = CreateConnection(database)
     c = connection.cursor()
 

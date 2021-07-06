@@ -40,7 +40,7 @@ class showMemberWindow(QtWidgets.QWidget):
     #Objects can also contain methods. Methods in objects are functions that belong to the object.
     def setupGuiMember(self, memberWindow):
         #Database local location is assigned to the variable database.
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
         #Using the CreateConnection function in my database module, it creates the database connection
         #and assigns it to connection variable.
@@ -376,7 +376,7 @@ class showMemberWindow(QtWidgets.QWidget):
         #that the member has booked which is in the FlightsBooked table, and this will be done by querying the 
         #table using the sendMemberID.
         try:
-            database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+            database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
             connection = CreateConnection(database)
             c = connection.cursor()
@@ -465,7 +465,7 @@ class showMemberWindow(QtWidgets.QWidget):
         #and pass the data to the bookFlightsData method.
         self.comboBoxBook.activated[str].connect(self.bookFlightsData)      
 
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
         connection = CreateConnection(database)
         c = connection.cursor()
@@ -517,7 +517,7 @@ class showMemberWindow(QtWidgets.QWidget):
     #bookFlights method is the one that executes the SQL operation needed to book the flights that the member has choosen
     #and to update the GUI of the member window in real time as flights are booked and cancelled.
     def bookFlights(self):
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
         c = connection.cursor()
         #A try except block is ran, to query the FlightID of the flight the user selected to book
@@ -640,7 +640,7 @@ class showMemberWindow(QtWidgets.QWidget):
     #cancelFlights method is used to delete/ update the flightsBooked table, for the flight that the member
     #wants to cancel.
     def cancelFlights(self):
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
         c = connection.cursor()
 
@@ -761,7 +761,7 @@ class showMemberWindow(QtWidgets.QWidget):
         
     #saveDetails method is run to update the member details.
     def saveDetails(self):
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
 
         #Only if the password is more than 8 characters long, the rest of the code will be executed.

@@ -276,7 +276,7 @@ class showLoginWindow(QtWidgets.QWidget):
     #Queries the database for email and password for member, staff and admin.
     def ValidateLogin(self):
         #Specifies the location of the database.
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         #Creates the database connection.
         connection = CreateConnection(database)
         #Creates the cursor object by calling the cursor() function method of the connection object.

@@ -43,7 +43,7 @@ class showAdminWindow(QtWidgets.QWidget):
     #Objects can also contain methods. Methods in objects are functions that belong to the object.
     def setupGuiAdmin(self, adminWindow):
         #Database local location is assigned to the variable "database".
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         #Using the "CreateConnection" function in my database module, it creates the database connection
         #and assigns it to "connection" variable.
         connection = CreateConnection(database)
@@ -316,7 +316,7 @@ class showAdminWindow(QtWidgets.QWidget):
         self.textEditEmail.setReadOnly(True)
 
         #Specifies the database file location to the database variable which will store the location.
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
         #The database connection is created using the database location.
         #CreateConnection from my database module is used to create the database connection.
@@ -495,7 +495,7 @@ class showAdminWindow(QtWidgets.QWidget):
     #details to the database.
     def saveDetails(self):
         print("Running!")
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
         #With connection us used so after the connection is successfully established the connection will also
         #will be automatically closed once all the necessaray code is ran. We don't need to close the connection
@@ -551,7 +551,7 @@ class showAdminWindow(QtWidgets.QWidget):
         print(self.data)
         
     def delStaffs(self):
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
         c = connection.cursor()
 

@@ -351,7 +351,7 @@ class exportToTextAndExcel(dataSet):
 class start(object):
 	def __init__(self):
 		#Database location is specified.
-		database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+		database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 		#Using my qjetdatabase module, CreateConnection function is called and the,
 		#database connection is established.
 		connection = CreateConnection(database)

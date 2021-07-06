@@ -42,7 +42,7 @@ class showStaffWindow(QtWidgets.QWidget):
     #Objects can also contain methods. Methods in objects are functions that belong to the object.
     def setupGuiStaff(self, staffWindow):
         #Database local location is assigned to the variable database.
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
         #Executes a sql statement to retrieve FirstName, Surname, Email, MobileNumber and Password.
         #from the staff table.
@@ -342,7 +342,7 @@ class showStaffWindow(QtWidgets.QWidget):
         self.textEditBook.setReadOnly(True)
 
         #Database local location is assigned to the variable database.
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
 
         #Using the CreateConnection function in my database module, it creates the database connection
         #and assigns it to connection variable.
@@ -508,7 +508,7 @@ class showStaffWindow(QtWidgets.QWidget):
     
     #saveDetails method is run to update the staff details.
     def saveDetails(self):
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
 
         #Only if the password is more than 8 characters long, the rest of the code will be executed.
@@ -561,7 +561,7 @@ class showStaffWindow(QtWidgets.QWidget):
         rangeEnd = (10**4) - 1
         generate = randint(rangeStart, rangeEnd)
 
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
 
         #If the add flight user input box is empty, a suitable pop up notification will be executed.
@@ -642,7 +642,7 @@ class showStaffWindow(QtWidgets.QWidget):
     #When the "Cancel" button is pressed delFlights method will execute.
     def delFlights(self):
         
-        database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+        database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
         connection = CreateConnection(database)
         c = connection.cursor()
 

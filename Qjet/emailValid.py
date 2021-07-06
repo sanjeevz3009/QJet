@@ -289,7 +289,7 @@ class emailSenderTickets(showEmailWindow):
         #A try except block is run to get flight ID of the flights that the member booked, and
         #the the flight names and prices. Finally emailing all these details to the member's email.
         try:
-            database = r"C:\Users\Deadsec\Desktop\QJet\Qjet\qjetdatabase.db"
+            database = r"C:\Users\Deadsec\Desktop\CS-NEA\QJet\Qjet\qjetdatabase.db"
             connection = CreateConnection(database)
             c = connection.cursor()
             #Executes a SQL statement to retrieve FlightID from the FlightsBooked table, using the memberID.
