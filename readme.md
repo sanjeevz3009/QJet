@@ -7,7 +7,7 @@
 * Staffs will be able to cancel flights for users to book, change their personal details, reset their login details and add new flights and prices for the users to book.
 * Admin will be able to create and delete staff accounts, change their personal details and reset their login details. Admins will also be able to see some insights about the company, such as booked and cancelled flights data in various different graphs. Admins will also have the ability to export these data into a excel file.
 ### Future improvements
-* Improved GUI.
+* Improve GUI.
 * Modularising the code into more smaller files for maintainability.
 ### Files
 >
