@@ -9,7 +9,6 @@
 ### Future improvements
 * Improved GUI.
 * Modularising the code into more smaller files for maintainability.
-*
 ### Files
 >
 * `loginWindow.py` is the start of the application. It checks for different user types such as customers, staffs and admins. Then takes them to the suitable page/ window for the user.
