@@ -1,7 +1,7 @@
 # QJet - Airline Booking & Management System
 ### Usuage
 * `pip install -r requirements.txt` to install the required modules and files.
-* Open the `LoginWindow.py` file from Qjet folder to start the program.
+* Open the `LoginWindow.py` file from Qjet folder to start the application.
 ### Features
 * Users will be able to create accounts, select and book flights, cancel flights, change their personal details and reset their login details via an email sent to them.
 * Staffs will be able to cancel flights for users to book, change their personal details, reset their login details and add new flights and prices for the users to book.
